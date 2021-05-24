@@ -75,8 +75,7 @@
                                 <div id="usernameHelp" class="form-text">Required, must be at most 8 characters long
                                 </div>
                                 <span class="text-danger d-none" id="usernameRequired">- Username field is
-                                    required.</span>
-                                <br>
+                                    required.<br></span>
                                 <span class="text-danger d-none" id="usernameLongerThanEightChar">- Username can not be
                                     longer than
                                     8 characters.</span>
@@ -85,8 +84,7 @@
                             <div class="mb-3">
                                 <label for="email" class="form-label required">Email</label>
                                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                                <span class="text-danger d-none" id="emailRequired">- Email field is required.</span>
-                                <br>
+                                <span class="text-danger d-none" id="emailRequired">- Email field is required.<br></span>
                                 <span class="text-danger d-none" id="emailFormatRequired">- Email format is
                                     required.</span>
                             </div>
@@ -97,23 +95,17 @@
                                     aria-describedby="passwordHelp">
                                 <div id="passwordHelp" class="form-text">Required, must be at most 8 characters long
                                     compromising at least a digit, a lowercase letter, and an uppercase letter</div>
-
                                 <span class="text-danger d-none" id="passwordRequired">- Password field is
-                                    required.</span>
-                                <br>
+                                    required.<br></span>
                                 <span class="text-danger d-none" id="passwordLongerThanEightChar">- Password can not be
-                                    longer than 8 characters.</span>
-                                <br>
+                                    longer than 8 characters.<br></span>
                                 <span class="text-danger d-none" id="passwordLowercase">- Password must contain
-                                    lowercase characters.</span>
-                                <br>
+                                    lowercase characters.<br></span>
                                 <span class="text-danger d-none" id="passwordUppercase">- Password must
-                                    contain uppercase characters.</span>
-                                <br>
+                                    contain uppercase characters.<br></span>
                                 <span class="text-danger d-none" id="passwordDigit">- Password must
-                                    contains digit.</span>
+                                    contains digit.<br></span>
                             </div>
-
 
                             <div class="mb-3">
                                 <label for="firstName" class="form-label">First name</label>
@@ -127,29 +119,39 @@
                             <div class="mb-3">
                                 <label for="lastName" class="form-label required">Last name</label>
                                 <input type="text" class="form-control" id="lastName" aria-describedby="lastNameHelp">
+                                <span class="text-danger d-none" id="lastNameRequired">- Last name is
+                                    required.</span>
                             </div>
 
                             <label for="gender" class="form-label required">Gender</label>
                             <select class="form-select" id="gender">
-                                <option selected>Choose one</option>
+                                <option selected value="">Choose one</option>
                                 <option value="F">Female</option>
                                 <option value="M">Male</option>
                             </select>
-
+                            <span class="text-danger d-none" id="genderRequired">- Gender is
+                                required.<br></span>
                             <br>
+
+                            
                             <div class="mb-3">
                                 <label for="streetAddress" class="form-label required">Street address</label>
                                 <input type="text" class="form-control" id="streetAddress">
+                                <span class="text-danger d-none" id="streetAddressRequired">- Street address is
+                                    required.<br></span>
                             </div>
+
                             <div class="mb-3">
                                 <label for="city" class="form-label required">City</label>
                                 <input type="text" class="form-control" id="city">
+                                <span class="text-danger d-none" id="cityRequired">- City is
+                                    required.<br></span>
                             </div>
 
                             <label for="state" class="form-label required">State (US states only)</label>
                             <br>
                             <select class="form-select" id="state">
-                                <option selected>Choose one</option>
+                                <option selected value="">Choose one</option>
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
                                 <option value="AZ">Arizona</option>
@@ -202,26 +204,35 @@
                                 <option value="WI">Wisconsin</option>
                                 <option value="WY">Wyoming</option>
                             </select>
-                            <br>
+                            <span class="text-danger d-none" id="stateRequired">- State is
+                                required.<br/></span><br>
 
                             <div class="mb-3">
                                 <label for="zipcode" class="form-label required">Zip code</label>
                                 <input type="text" class="form-control" id="zipcode">
+                                <span class="text-danger d-none" id="zipCodeRequired">- Zip code is
+                                    required.<br></span>
                             </div>
 
                             <div class="mb-3">
                                 <label for="tel" class="form-label required">Cell Phone number</label>
                                 <input type="tel" class="form-control" id="tel">
+                                <span class="text-danger d-none" id="telRequired">- Cell phone number is
+                                    required.<br></span>
                             </div>
 
                             <div class="mb-3">
                                 <label for="country" class="form-label required">Country of Origin</label>
                                 <input type="text" class="form-control" id="country">
+                                <span class="text-danger d-none" id="countryRequired">- Country is
+                                    required.<br></span>
                             </div>
 
                             <div class="mb-3">
                                 <label for="dob" class="form-label required">Date of Birth</label>
                                 <input type="date" class="form-control" id="dob">
+                                <span class="text-danger d-none" id="dobRequired">- DoB is
+                                    required.<br></span>
                             </div>
 
                             <div class="mb-3">
@@ -405,6 +416,9 @@
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 
+    <script src="scripts/helpers.js"></script>
+    <script src="scripts/validators.js"></script>
+    <script src="scripts/joinUsForm.js"></script>
     <script src="script.js"></script>
 
 </body>
