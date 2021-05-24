@@ -320,27 +320,26 @@
             </div>
         </div>
     </div>
+    <!--- boostrap fading tabs with different content--->
     <div class="row">
-
-        <div class="col-2 border text-center p-3 bg-light fw-bold">
-            <span>Current Work</span>
-        </div>
-        <div class="col-2 border text-center p-3 bg-light fw-bold">
-            <span>Future Work</span>
-        </div>
-        <div class="col-2 border text-center p-3 bg-light fw-bold">
-            <span>Past Work</span>
-        </div>
-
-        <div class="col-6 text-center mt-4 text-muted">
-            <h4>What's New?</h4>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-6 text-center mt-5">
-            Narrative for the selected tab
-        </div>
+        <div class="col-6">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="current-work-tab" data-bs-toggle="tab" data-bs-target="#current-work" type="button" role="tab" aria-controls="current-work" aria-selected="true">Current Work</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="future-work-tab" data-bs-toggle="tab" data-bs-target="#future-work" type="button" role="tab" aria-controls="future-work" aria-selected="false">Future Work</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="past-work-tab" data-bs-toggle="tab" data-bs-target="#past-work" type="button" role="tab" aria-controls="past-work" aria-selected="false">Past Work</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="current-work" role="tabpanel" aria-labelledby="current-work-tab">See what we are doing now!</div>
+                <div class="tab-pane fade" id="future-work" role="tabpanel" aria-labelledby="future-work-tab">Checkout what we have coming up!</div>
+                <div class="tab-pane fade" id="past-work" role="tabpanel" aria-labelledby="past-work-tab">These are our past accomplishments</div>
+            </div>
+        </div>     
         <div class="col-6">
             <div class="row">
                 <div class="col text-center mt-5">
@@ -354,7 +353,6 @@
             </div>
         </div>
     </div>
-
     <br>
     <br>
     <br>
