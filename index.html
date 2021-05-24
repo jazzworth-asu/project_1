@@ -335,7 +335,14 @@
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="current-work" role="tabpanel" aria-labelledby="current-work-tab">See what we are doing now!</div>
+                <div class="tab-pane fade show active" id="current-work" role="tabpanel" aria-labelledby="current-work-tab">
+                    Drag and Drop technology! Move the pic from box to box!<br>
+                    <!--Drag and Drop HTML5 Feature-->
+                    <div id="dragdiv1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img src="assets/asu-icon.png" draggable="true" ondragstart="drag(event)" id="drag1" width="50" height="50">
+                    </div>
+                    <div id="dragdiv2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                </div>
                 <div class="tab-pane fade" id="future-work" role="tabpanel" aria-labelledby="future-work-tab">Checkout what we have coming up!</div>
                 <div class="tab-pane fade" id="past-work" role="tabpanel" aria-labelledby="past-work-tab">These are our past accomplishments</div>
             </div>
