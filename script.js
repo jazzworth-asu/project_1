@@ -1,7 +1,9 @@
 
 $(document).ready(function () {
 
-    getLocation()
+    getLocation();
+
+    $("#joinUs").on('shown.bs.modal', resetJoinUsForm);
     $("#joinUsButton").click(submitJoinUsForm)
 
 });
