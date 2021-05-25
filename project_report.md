@@ -23,12 +23,17 @@
   - [Use javascript for client-side validation of registration and logon pages](#use-javascript-for-client-side-validation-of-registration-and-logon-pages)
 - [User Manual](#user-manual)
 - [Conclusion](#conclusion)
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
   - [Hooman Conclusion](#hooman-conclusion)
   - [Jeff Conclusion](#jeff-conclusion)
 ---
 >>>>>>> Stashed changes
+=======
+  - [Hooman Conclusion](#hooman-conclusion)
+  - [Jeff Conclusion](#jeff-conclusion)
+>>>>>>> b0902f70e5c66611249364e81fb2a250025001d8
 # Introduction
 
 # Description
@@ -74,6 +79,10 @@
 # User Manual
 
 # Conclusion
+
+## Hooman Conclusion
+
+## Jeff Conclusion
 
 
 
