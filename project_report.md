@@ -22,6 +22,8 @@
   - [Use javascript for client-side validation of registration and logon pages](#use-javascript-for-client-side-validation-of-registration-and-logon-pages)
 - [User Manual](#user-manual)
 - [Conclusion](#conclusion)
+  - [Hooman Conclusion](#hooman-conclusion)
+  - [Jeff Conclusion](#jeff-conclusion)
 # Introduction
 
 # Description
@@ -67,6 +69,10 @@
 # User Manual
 
 # Conclusion
+
+## Hooman Conclusion
+
+## Jeff Conclusion
 
 
 

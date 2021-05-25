@@ -6,6 +6,10 @@ $(document).ready(function () {
     $("#joinUs").on('shown.bs.modal', resetJoinUsForm);
     $("#joinUsButton").click(submitJoinUsForm)
 
+    /*sign in validation*/
+    $("#signInForm").on('shown.bs.modal', resetSignInForm);
+    $("#signInButton").click(submitSignInForm)
+
   
 
 

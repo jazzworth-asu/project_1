@@ -265,18 +265,20 @@
                                 <label for="signInInputUsername" class="form-label required">Username</label>
                                 <input type="text" class="form-control" id="signInInputUsername">
                             </div>
+                            <span class="text-danger d-none" id="signInInputUsernameRequired">- Username cannot be blank.<br></span>
 
                             <div class="mb-3">
                                 <label for="signInpassword" class="form-label required">Password</label>
                                 <input type="password" class="form-control" id="signInpassword">
                             </div>
+                            <span class="text-danger d-none" id="signInpasswordRequired">- Password cannot be blank.<br></span>
 
                             <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
                         </form>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancel</button>
-                        <button type="button" class="btn btn-outline-primary">Sign In</button>
+                        <button type="button" class="btn btn-outline-primary" id="signInButton">Sign In</button>
                     </div>
                 </div>
             </div>
@@ -431,6 +433,7 @@
     <script src="scripts/helpers.js"></script>
     <script src="scripts/validators.js"></script>
     <script src="scripts/joinUsForm.js"></script>
+    <script src="scripts/signInForm.js"></script>
     <script src="script.js"></script>
 
 </body>
