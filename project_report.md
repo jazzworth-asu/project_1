@@ -1,4 +1,5 @@
-**Project Report**
+<h1 align="center"><strong>Project Report</strong></h1>
+
 - [Introduction](#introduction)
 - [Description](#description)
   - [Structure](#structure)
@@ -22,6 +23,12 @@
   - [Use javascript for client-side validation of registration and logon pages](#use-javascript-for-client-side-validation-of-registration-and-logon-pages)
 - [User Manual](#user-manual)
 - [Conclusion](#conclusion)
+<<<<<<< Updated upstream
+=======
+  - [Hooman Conclusion](#hooman-conclusion)
+  - [Jeff Conclusion](#jeff-conclusion)
+---
+>>>>>>> Stashed changes
 # Introduction
 
 # Description
