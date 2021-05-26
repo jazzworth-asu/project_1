@@ -1,5 +1,8 @@
 <h1 align="center"><strong>Project Report</strong></h1>
 
+- [<<<<<<< Updated upstream](#-updated-upstream)
+  - [- Jeff Conclusion](#--jeff-conclusion)
+- [>>>>>>> Stashed changes](#-stashed-changes)
 - [Introduction](#introduction)
 - [Description](#description)
   - [Structure](#structure)
@@ -23,6 +26,8 @@
   - [Use javascript for client-side validation of registration and logon pages](#use-javascript-for-client-side-validation-of-registration-and-logon-pages)
 - [User Manual](#user-manual)
 - [Conclusion](#conclusion)
+  - [Hooman Conclusion](#hooman-conclusion)
+  - [Jeff Conclusion](#jeff-conclusion)
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
@@ -35,7 +40,7 @@
   - [Jeff Conclusion](#jeff-conclusion)
 >>>>>>> b0902f70e5c66611249364e81fb2a250025001d8
 # Introduction
-
+  <p>The IFT 598 "Middleware Programming and Database Security" project team was charged with completing "Deliverable 1"; a user interface (UI) that must include a validated registration and login page as well as several other required elements detailed later in this report.  The team chose to use the course provided wireframe and volunteer organization concept to build their from.  The team implemented the UI using HTML5, Javascript, JQuery 3.3.1, and Bootstrap 5.01.  The JQuery and Bootstrap libraries are accessed via Content Delivery Networks (CDN) versus a local copy.  This provides a lightweight and robust implementation of those elements to users, regardless of their geographic location.</p>
 # Description
 
 ## Structure
