@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <h1 align="center"><strong>IFT 598 Project Report</strong></h1>
 <p align="center"> A Project Report presented to the instructors of IFT 598 Middleware Programming and Database Security</p>
 <p align="center">By</p>
@@ -11,7 +12,13 @@
 - [<<<<<<< Updated upstream](#-updated-upstream)
   - [- Jeff Conclusion](#--jeff-conclusion)
 - [>>>>>>> Stashed changes](#-stashed-changes)
+=======
+<h1 align="center"><strong>Project Report</strong></h1>
+
+>>>>>>> Stashed changes
+- [- >>>>>>> Stashed changes](#---stashed-changes)
 - [Introduction](#introduction)
+- [Introduction](#introduction-1)
 - [Description](#description)
   - [Structure](#structure)
     - [Navigation Design](#navigation-design)
@@ -36,19 +43,18 @@
 - [Conclusion](#conclusion)
   - [Hooman Conclusion](#hooman-conclusion)
   - [Jeff Conclusion](#jeff-conclusion)
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
+
   - [Hooman Conclusion](#hooman-conclusion)
   - [Jeff Conclusion](#jeff-conclusion)
----
->>>>>>> Stashed changes
-=======
+
   - [Hooman Conclusion](#hooman-conclusion)
   - [Jeff Conclusion](#jeff-conclusion)
->>>>>>> b0902f70e5c66611249364e81fb2a250025001d8
+
 # Introduction    
   <p>The IFT 598 "Middleware Programming and Database Security" project team was charged with completing "Deliverable 1"; a user interface (UI) that must include a validated registration and login page as well as several other required design and technical elements detailed later in this report.  The team chose to use the course provided wireframe and volunteer organization concept to build their deliverable submission.  The team implemented the UI using HTML5, Javascript, JQuery 3.3.1, and Bootstrap 5.01.  The JQuery and Bootstrap libraries are accessed via Content Delivery Networks (CDN) versus a local copy.  This provides a lightweight and robust implementation of those elements to users, regardless of their geographic location. This UI is the first in a series of deliverables that will be used for the duration of the project and was constructed with that in mind.</p>
+
+# Introduction
+
 
 # Description
 
