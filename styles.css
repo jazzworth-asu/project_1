@@ -4,9 +4,9 @@
   }
 
 #dragdiv1, #dragdiv2 {
-  float: left;
-  width: 75px;
-  height: 75px;
+  
+  width: 200px;
+  height: 200px;
   margin: 10px;
   padding: 10px;
   border: 1px solid black;

@@ -32,6 +32,7 @@
   - [Use javascript for client-side validation of registration and logon pages](#use-javascript-for-client-side-validation-of-registration-and-logon-pages)
 - [User Manual](#user-manual)
 - [Conclusion](#conclusion)
+
 # Introduction    
   <p>The IFT 598 "Middleware Programming and Database Security" project team was charged with completing "Deliverable 1"; a user interface (UI) that must include a validated registration and login page as well as several other required design and technical elements detailed later in this report.  The team chose to use the course provided wireframe and volunteer organization concept to build their deliverable submission.  The team implemented a responsive UI using HTML5, Javascript, JQuery 3.3.1, and Bootstrap 5.01.  The JQuery and Bootstrap libraries are accessed via Content Delivery Networks (CDN) in lieu of a local copy.  This provides a lightweight and robust implementation of those library elements to users, regardless of their geographic location. This deliverable is the first in a series of deliverables, building upon one another to complete the course project and was designed and constructed with that in mind.  </p>
 
