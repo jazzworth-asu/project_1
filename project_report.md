@@ -34,7 +34,7 @@
 - [Conclusion](#conclusion)
 
 # <strong>Introduction    </strong>
-  <p>The IFT 598 "Middleware Programming and Database Security" project team was charged with completing "Deliverable 1"; a user interface (UI) that must include a validated registration and login page as well as several other required design and technical elements detailed later in this report.  The team chose to use the course provided wireframe and volunteer organization concept to build their deliverable submission.  The team implemented a responsive UI using HTML5, JavaScript, JQuery 3.3.1, and Bootstrap 5.01.  The JQuery and Bootstrap libraries are accessed via Content Delivery Networks (CDN) in lieu of a local copy.  This provides a lightweight and robust implementation of those library elements to users, regardless of their geographic location. This deliverable is the first in a series of deliverables, building upon one another to complete the course project and was designed and constructed with that in mind.  </p> 
+  <p>The IFT 598 "Middleware Programming and Database Security" project team was charged with completing "Deliverable 1"; a user interface (UI) that must include a validated registration and login page as well as several other required design and technical elements detailed later in this report.  The team chose to use the course provided wireframe and volunteer organization concept to build their deliverable submission.  The team implemented a responsive UI using HTML5, JavaScript, JQuery 3.3.1, and Bootstrap 5.01.  The JQuery and Bootstrap libraries are accessed via Content Delivery Networks (CDN) in lieu of a local copy.  This provides a lightweight and robust implementation of those library elements to users, regardless of their geographic location. This deliverable is the first in a series of deliverables, building upon one another to complete the course project and was designed and constructed with that in mind.</p> <br>
   
 
 # <strong>Description</strong>
@@ -68,7 +68,7 @@ The same words, buttons and colors are used throughout the page and forms to pre
 <p> Additionally, date pickers and dropdowns are used where possible to eliminate mistakes by the user and ensure data consistency of format.<p align="center"><img src="report_assets/Menu_dropdown.svg" width=400></p></p><br>
 
 #### <em>Login and Registration</em>
-In addition to the validation and required fields implementations in the forms, the team also utilized regular expressions to ensure formats are enforced for fields such as the email address.  For example, an incorrect email format missing @ or a .'domain' yields and error </p> <img src="report_assets/incorrect_email.svg" width=400> <br>whereas a correct format is accepted by the form. <img src="report_assets/correct_email.svg" width=400></p><br>
+In addition to the validation and required fields implementations in the forms, the team also utilized regular expressions to ensure formats are enforced for fields such as the email address.  For example, an incorrect email format missing @ or a .'domain' yields and error </p> <p align="center"><img src="report_assets/incorrect_email.svg" width=400></p> <br>whereas a correct format is accepted by the form. <p align="center"><img src="report_assets/correct_email.svg" width=400></p></p><br>
 
 ## <strong> Creative Logo</strong>
 <p>Although the team used the course provided template, A unique logo was developed to convey the intent of the organization and the content of site.  The logo makes it clear to the user what type of content they can expect on the site.  Additional consideration was taken to use a color palette that adheres to the Web Content Accessibility Guidelines (WCAG) 2.0, that can then be safely carried throughout the site and all its content.</p> <p align="center"><img algin="center" src="report_assets/logo_500_500.svg" width=400></p><br>
@@ -140,6 +140,9 @@ appears to the user in the form as this:
 # User Manual
 
 # Conclusion
+<p> 
+The team successfully designed and developed a functional User Interface to serve as the front end and first deliverable in the larger course project.  The team used client side web technologies that included HTML5, JavaScript, JQuery and Bootstrap 5.  A primary learning outcome of the deliverable was team communication and workflow.  Deciding on tools to use for communication and code repositories, allowed the team to develop an effective workflow and collaboration environment.  Additionally, determining the technology to be used and ensuring team members were employing the same versions helped create an easy to iterate over product that features could be added to without conflict.  The phrase "make it work, then make it pretty" was applicable in the development of this deliverable. Once adopted by all the team members, it allowed for a faster paced workflow. more efficient outcomes, a solid functioning product, and still left time to develop the required aesthetics. The team will continue to work on communicating and workflow to create the next complementary project deliverable.
+</p><br>
 
 
 
