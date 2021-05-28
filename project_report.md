@@ -138,6 +138,10 @@ appears to the user in the form as this:
 <p align="center"><img algin="center" src="report_assets/javascriptvalidation.svg" width=400></p>In addition, a reset capability was implemented to remove the -d-none class of each text-danger class to reset the form of validation error notifications if the form is closed and reopened.</p><br>
 
 # User Manual
+<p>
+After unzipping the zip file, you can import the folder into an IDE (such as VS Code), then you can right-click on the index.html file and choose “Open in Default Browser” option. The landing page shows up including all the details explained above.
+Also, in case of not having IDE, you can right-click on index.html file in File Explorer and then choose “Open With” option to select the favorite browser to open up the file.
+</p><br>
 
 # Conclusion
 <p> 
